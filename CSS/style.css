@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR1 STARTS HERE */
+.nav1-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #FF773A;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.logo p{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.logo span{
+    color: #fff;
+}
+.nav1-heading{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.nav1-container a{
+    text-decoration: none;
+    color: #343A40;
+    font-weight: 400;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    
+}
+/* NAVBAR1 ENDS HERE */
+
+/* NAVBAR2 STARTS HERE */
+.nav2-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5px 65px;
+    box-shadow: #cccbcb 0px 5px 15px 0px;
+}
+.nav2-logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.nav2-logo p{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.nav2-logo span{
+    color: #FF6C2B;
+}
+.nav2-items ul li{
+    display: inline-block;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+.nav2-items li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2F2F2F;
+    padding: 10px;
+
+}
+/* nav 2 icons */
+.nav2-icons ul li{
+    display: inline-block;
+    list-style: none;
+}
+.nav2-icons ul li a{
+    text-decoration: none;
+    padding-left: 8px;
+}
+/* NAVBAR2 ENDS HERE */
+/* END OF NAVBAR SECTION */
+
+.header-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 40px 40px 0 40px;
+}
+.header-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 58px;
+    color: #2F2F2F;
+    margin-bottom: 40px;
+}
+.header-container span{
+    color: white;
+    text-shadow: -1px -1px 0 #FF6C2B, 3px -1px 0 #FF6C2B, -1px 1px 0 #FF6C2B, 1px 2px 0 #FF6C2B;
+}
+.header-text a{
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-family: 'Roboto'
+
+}
+.header-container img{
+    margin-top: 85px;
+}
